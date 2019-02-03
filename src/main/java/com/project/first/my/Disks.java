@@ -1,22 +1,23 @@
+package com.project.first.my;
+
 public class Disks {
 
-
     private String diskType;
-    private String nameFilm;
+    private String name;
+    private String dateSale;
     private Boolean store;
     private int balance;
-
-
-    public Disks() {
-        System.out.println("Shop created!");
-    }
 
     public String getDiskType() {
         return diskType;
     }
 
-    public String getNameFilm() {
-        return nameFilm;
+    public String getName() {
+        return name;
+    }
+
+    public String getDateSale() {
+        return dateSale;
     }
 
     public Boolean getStore() {
@@ -31,8 +32,12 @@ public class Disks {
         this.diskType = diskType;
     }
 
-    public void setNameFilm(String nameFilm) {
-        this.nameFilm = nameFilm;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setDateSale(String dateSale) {
+        this.dateSale = dateSale;
     }
 
     public void setStore(Boolean store) {
@@ -42,15 +47,4 @@ public class Disks {
     public void setBalance(int balance) {
         this.balance = balance;
     }
-
-    /*@Override
-    public void displayInfo(Disks disks){
-        System.out.println("");
-    }*/
-
-
-
-
-
-
 }
