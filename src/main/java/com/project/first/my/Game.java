@@ -15,6 +15,6 @@ public class Game extends Disk {
 
     @Override
     public String getName() {
-        return "Disk with games";
+        return name;
     }
 }

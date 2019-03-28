@@ -15,6 +15,11 @@ public class Music extends Disk {
 
     @Override
     public String getName() {
-        return "Disk with music";
+        return name;
     }
+
+//    @Override
+//    public Date getByDate() {
+//        return saleDate;
+//    }
 }

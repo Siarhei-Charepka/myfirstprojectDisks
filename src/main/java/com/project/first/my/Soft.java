@@ -15,7 +15,11 @@ public class Soft extends Disk {
 
     @Override
     public String getName() {
-        return "Disk with soft";
+        return name;
     }
 
+//    @Override
+//    public Date getByDate() {
+//        return saleDate;
+//    }
 }

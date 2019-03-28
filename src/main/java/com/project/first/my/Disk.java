@@ -1,13 +1,12 @@
 package com.project.first.my;
 
-import java.text.DateFormat;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Locale;
 
 public abstract class Disk implements IDisk {
-    private DiskType diskType;
-    private String name;
+    protected DiskType diskType;
+    protected String name;
     protected Date saleDate;
     protected boolean existed;
     protected int balance;
@@ -36,10 +35,11 @@ public abstract class Disk implements IDisk {
     }
 
     public void print() {
-
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd.MM.yyyy");
+        String date = simpleDateFormat.format(saleDate);
         System.out.println("Название диска: " + name);
         System.out.println("Тип диска: " + diskType);
-        System.out.println("Дата продажи:" + saleDate);
+        System.out.println("Дата продажи:" + date);
         System.out.println("Наличие на складе: " + existed);
         System.out.println("Остаток: " + balance);
 

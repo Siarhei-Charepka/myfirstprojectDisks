@@ -15,6 +15,11 @@ public class Movie extends Disk {
 
     @Override
     public String getName() {
-        return "Disk with movies";
+        return name;
     }
+
+//    @Override
+//    public Date getByDate() {
+//        return saleDate;
+//    }
 }
