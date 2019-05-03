@@ -18,8 +18,4 @@ public class Music extends Disk {
         return name;
     }
 
-//    @Override
-//    public Date getByDate() {
-//        return saleDate;
-//    }
 }

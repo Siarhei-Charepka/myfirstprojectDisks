@@ -18,8 +18,4 @@ public class Soft extends Disk {
         return name;
     }
 
-//    @Override
-//    public Date getByDate() {
-//        return saleDate;
-//    }
 }

@@ -19,7 +19,7 @@ public class Movie extends Disk {
     }
 
 //    @Override
-//    public Date getByDate() {
+//   public Date getByDate() {
 //        return saleDate;
 //    }
 }

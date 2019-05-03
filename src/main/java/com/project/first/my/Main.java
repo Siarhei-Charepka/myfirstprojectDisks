@@ -35,12 +35,12 @@ public class Main {
 
         //storage.getByType(DiskType.SOFT).forEach(disk -> disk.print());
 
-        //storage.getByName("Цой").print();
+        //storage.getByName("Сливки").print();
 
-       // storage.getByYear("2018").forEach(IDisk::print);
+        //storage.getByYear("2012").forEach(IDisk::print);
 
-        for (int i = 0; i < storage.getByYear("2018").size(); i++) {
-            storage.getByYear("2018").get(i).print();
+        for (int i = 0; i < storage.getByYear("2012").size(); i++) {
+            storage.getByYear("2012").get(i).print();
         }
 
     }

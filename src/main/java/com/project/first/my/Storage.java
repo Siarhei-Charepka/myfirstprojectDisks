@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Storage implements IStorage {
 
-    private List<IDisk> diskStorage = new ArrayList<>();
+    private List<IDisk> diskStorage = new ArrayList();
 
     public List<IDisk> getDiskStorage() {
         return diskStorage;
@@ -42,7 +42,6 @@ public class Storage implements IStorage {
         }
         return typeDisks;
     }
-
 
     @Override
     public List<IDisk> getByYear(String year) throws ParseException {
